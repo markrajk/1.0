@@ -1,7 +1,4 @@
 import React, { Component  } from 'react';
-import { Button, ButtonToolbar, Modal, Carousel } from 'react-bootstrap';
-
-
 export default class Login extends Component{
 	
 	constructor(props) {

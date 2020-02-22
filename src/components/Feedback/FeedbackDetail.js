@@ -1,7 +1,4 @@
 import React, { Component  } from 'react';
-import { Button, ButtonToolbar, Modal, Carousel } from 'react-bootstrap';
-
-
 class FeedbackDetail extends Component{
 	
 	constructor(props) {
