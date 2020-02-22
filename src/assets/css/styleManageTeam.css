@@ -1,0 +1,340 @@
+html {
+  font-size: 62.5%; }
+  @media (max-width: 1800px) {
+    html {
+      font-size: 58%; } }
+  @media (max-width: 1500px) {
+    html {
+      font-size: 53%; } }
+  @media (max-width: 991px) {
+    html {
+      font-size: 48%; } }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f8f9fb; }
+
+.main {
+  width: 100%;
+  height: 100%; }
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  min-width: 24.4rem;
+  top: 0;
+  left: 0;
+  padding: 4.2rem 3rem;
+  padding-bottom: 0;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.06);
+  z-index: 1000; }
+  .sidebar-body {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */ }
+    .sidebar-body::-webkit-scrollbar {
+      /* WebKit */
+      width: 0;
+      height: 0; }
+  .sidebar-info-img {
+    width: 6.7rem;
+    height: 6.7rem;
+    border-radius: 50%; }
+  .sidebar-info-name {
+    padding-left: 1.3rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #002257; }
+    .sidebar-info-name span {
+      display: inline-block;
+      width: 0.7rem;
+      height: 0.7rem;
+      margin-left: 0.7rem;
+      background-color: #2ebd41;
+      border-radius: 50%; }
+  .sidebar-info-title {
+    padding-left: 1.3rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #969ead; }
+  .sidebar-group {
+    padding-top: 4rem; }
+    .sidebar-group:nth-of-type(2), .sidebar-group:nth-of-type(3) {
+      padding-top: 3.5rem; }
+    .sidebar-group .list-unstyled {
+      margin: 0; }
+    .sidebar-group h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1.42;
+      color: #687181; }
+    .sidebar-group .dropdown-toggle {
+      padding: .7rem 0;
+      padding-left: 1.2rem;
+      width: 100%;
+      height: 100%;
+      border: solid 1.5px #eaebee;
+      margin-top: 0.7rem;
+      font-size: 1.2rem;
+      background-color: none;
+      border-color: #eaebee;
+      border: 1.5px solid #eaebee;
+      color: #002257;
+      border-radius: 3px; }
+    .sidebar-group .list-unstyled li a {
+      display: inline-block;
+      height: 1.8rem;
+      margin-top: 1.7rem;
+      text-decoration: none;
+      font-size: 1.3rem;
+      line-height: 1.69;
+      color: #002257; }
+    .sidebar-group .list-unstyled li.active {
+      font-weight: 700; }
+
+.results {
+  position: relative;
+  width: 100%;
+  margin-left: 24.4rem;
+  padding: 0 4.6rem 2.8rem 3.4rem; }
+  .results-header {
+    height: 17rem;
+    padding: 4.1rem 0 0 0;
+    background-color: #f8f9fb;
+    z-index: 500; }
+    .results-header .subtitle a {
+      color: #1a173b;
+      font-size: 1.5rem;
+      font-weight: 600; }
+    .results-header-logout {
+      height: 2rem;
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600; }
+      .results-header-logout a {
+        color: #6e747e; }
+      .results-header-logout i {
+        margin-top: 0;
+        margin-left: -3px;
+        font-size: 1.8rem;
+        color: #6e747e; }
+    .results-header h2 {
+      height: 3.7rem;
+      margin: 0;
+      margin-bottom: 5.9rem;
+      font-size: 2.7rem;
+      font-weight: 600;
+      line-height: 1.37;
+      color: #1a173b; }
+    .results-header .choose {
+      margin: 2.2rem 0;
+      font-size: 1.6rem; }
+      .results-header .choose a {
+        color: #878590; }
+      .results-header .choose .active a {
+        font-weight: 700;
+        color: #1a173b; }
+  .results-body {
+	  display: block;
+    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
+    height: calc(100vh - 20rem); }
+    .results-body .category-input {
+      position: relative; }
+      .results-body .category-input i {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+        color: #62e872; }
+    .results-body .team-name, .results-body .category {
+      padding: 0 2.7rem;
+      margin-right: 3%;
+      font-family: 'Lato', sans-serif;
+      margin-bottom: 2.3rem;
+      height: 7.8rem;
+      border-radius: 4px;
+      border: solid 1.5px #eaebee;
+      background-color: #ffffff; }
+      .results-body .team-name .btn-custom-outline:not(:last-child), .results-body .category .btn-custom-outline:not(:last-child) {
+        margin-right: 1.1rem; }
+      .results-body .team-name a.btn-custom-outline, .results-body .category a.btn-custom-outline {
+        display: inline-block;
+        padding: .7rem 1.9rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: 0.35px;
+        color: #0077ff;
+        border-radius: 4px;
+        border: solid 1.5px #0077ff;
+        text-decoration: none; }
+        .results-body .team-name a.btn-custom-outline:hover, .results-body .category a.btn-custom-outline:hover {
+          background-color: #0077ff;
+          color: #FFF; }
+        .results-body .team-name a.btn-custom-outline.active, .results-body .category a.btn-custom-outline.active {
+          background-color: #0077ff;
+          color: #FFF; }
+          .results-body .team-name a.btn-custom-outline.active:hover, .results-body .category a.btn-custom-outline.active:hover {
+            background-color: #FFF;
+            color: #0077ff;
+            border: solid 1.5px #0077ff; }
+      @media (max-width: 767px) {
+        .results-body .team-name, .results-body .category {
+          width: 100%; } }
+      .results-body .team-name label, .results-body .category label {
+        margin-right: 2.9rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 1.22;
+        letter-spacing: 0.12px;
+        color: #1a173b; }
+      .results-body .team-name .category-input, .results-body .category .category-input {
+        width: 100%;
+        max-width: 28.1rem; }
+      .results-body .team-name .team-select, .results-body .category .team-select {
+        padding-left: 1.7rem;
+        width: 20rem;
+        height: 3.5rem;
+        border-radius: 17px;
+        border: solid 1.5px rgba(0, 0, 0, 0.1);
+        outline: none; }
+      .results-body .team-name input, .results-body .category input {
+        width: 100%;
+        max-width: 28.1rem;
+        height: 4.7rem;
+        padding-left: 1.7rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: rgba(0, 0, 0, 0.7);
+        border-radius: 4px;
+        background-color: rgba(239, 239, 239, 0.53);
+        border: none; }
+        .results-body .team-name input::placeholder, .results-body .category input::placeholder {
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 1.5rem; }
+    .results-body .team-table-member {
+      min-height: 27rem;
+      height: 100%;
+      max-height: calc(100vh - 53rem);
+      overflow-y: auto; }
+    .results-body .team-table-admin {
+      min-height: 7.6rem;
+      height: 100%;
+      max-height: calc(100vh - 53rem - 13rem - 6rem);
+      overflow-y: auto; }
+      .results-body .team-table-admin a {
+        color: #ff3e3e; }
+    .results-body .team-table-lead {
+      min-height: 3.6rem;
+      height: 100%;
+      max-height: 7.6rem;
+      overflow-y: auto; }
+    .results-body .team-table .table {
+      margin-bottom: 0; }
+      .results-body .team-table .table tr {
+        height: 3.9rem; }
+        .results-body .team-table .table tr td {
+          white-space: nowrap;
+          vertical-align: middle;
+          display: table-cell;
+          font-size: 1.3rem;
+          border-bottom: 1px solid #dee2e6; }
+          .results-body .team-table .table tr td a {
+            font-weight: 700; }
+        .results-body .team-table .table tr:last-child > td {
+          border-bottom: none !important; }
+        .results-body .team-table .table tr:first-child > td {
+          border-top: none !important; }
+    .results-body .team-card {
+      border-radius: 4px;
+      border: solid 1.5px #eaebee;
+      margin-right: 3%; }
+      .results-body .team-card-lead {
+        margin-bottom: 3%; }
+      .results-body .team-card-admin p {
+        font-size: 1.779rem !important; }
+      .results-body .team-card-header {
+        padding: 0 2.5rem;
+        height: 8.1rem;
+        border-bottom: solid 1.5px #eaebee; }
+        .results-body .team-card-header p {
+          font-size: 1.8rem;
+          font-weight: 700;
+          line-height: 1.22;
+          letter-spacing: 0.12px;
+          color: #1a173b; }
+        .results-body .team-card-header a {
+          font-size: 1.4rem; }
+    .results-body .card-confirm {
+      padding: 2.5rem 2rem;
+      padding-right: 5rem;
+      margin-top: 2.3rem;
+      border-radius: 4px;
+      border: solid 1.5px #eaebee; }
+      .results-body .card-confirm p {
+        font-size: 1.4rem;
+        line-height: 1.2;
+        color: #000a19; }
+      .results-body .card-confirm button {
+        white-space: nowrap;
+        width: 26rem;
+        height: 3.5rem;
+        font-size: 1.5rem;
+        line-height: 1;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        background-color: #0077ff;
+        vertical-align: middle; }
+
+.feedback-buttons {
+  white-space: nowrap; }
+  .feedback-buttons a {
+    padding: 0 1rem;
+    display: inline-block;
+    width: 11.1rem;
+    height: 3.1rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #FFF; }
+    .feedback-buttons a i {
+      margin-right: .5rem;
+      font-size: 1.7rem; }
+  .feedback-buttons-settings {
+    background-color: #404040; }
+  .feedback-buttons-delete {
+    background-color: #ff3e3e; }
+
+.radio-checkbox {
+  margin-bottom: -2px; }
+  .radio-checkbox input {
+    display: none; }
+  .radio-checkbox input[type=checkbox]:checked + label span {
+    display: inline-block; }
+  .radio-checkbox label {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    border: 2px solid #0077ff;
+    border-radius: 50%; }
+    .radio-checkbox label span {
+      display: none;
+      position: absolute;
+      height: 12px;
+      width: 12px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid #fff;
+      background-color: #0077ff;
+      border-radius: 50%; }
