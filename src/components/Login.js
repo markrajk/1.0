@@ -15,7 +15,7 @@ export default class Login extends Component{
       return(
 			<div class="people-signin">
             <div class="header d-flex justify-content-between align-items-center">
-                <p class="company">Company name</p>
+                <p class="company">Palautejärjestelmä</p>
                 <p class="help d-flex align-items-center">Need help <i class="material-icons">room_service</i></p>
             </div>
     

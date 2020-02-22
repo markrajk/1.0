@@ -2631,102 +2631,101 @@ body {
         background-color: #0077ff;
         vertical-align: middle; }
 
-.people-signin {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  padding: 43px 48px; }
-  .people-signin .header {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #3d3f43; }
-    .people-signin .header .company {
-      font-size: 2rem;
-      margin: 0; }
-    .people-signin .header .help {
-      font-size: 1.5rem;
-      margin: 0; }
-      .people-signin .header .help i {
-        margin-left: .5rem;
-        margin-top: -3px;
-        font-size: 2.5rem; }
-  .people-signin .signin {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0 6rem;
-    width: 45rem;
-    height: 63rem;
-    background-color: #FFF;
-    border: solid 2px #d9d9d9;
-    border-radius: 1.2rem; }
-    .people-signin .signin-header {
-      height: 45px;
-      margin-top: 9rem;
-      margin-bottom: 4.4rem;
-      font-size: 3.6rem;
-      font-weight: 600;
-      color: #183b56; }
-    .people-signin .signin #password,
-    .people-signin .signin #email {
-      padding: 1.7rem 2rem;
-      margin-bottom: 2.3rem;
-      width: 100%;
-      height: 5.6rem;
-      font-size: 1.6rem;
-      font-weight: 600;
-      color: #183b56;
-      border-radius: 8px;
-      border: solid 1.3px #c3cad9;
-      background-color: #ffffff; }
-      .people-signin .signin #password::placeholder,
-      .people-signin .signin #email::placeholder {
-        color: #959ead; }
-      .people-signin .signin #password:focus,
-      .people-signin .signin #email:focus {
-        outline: none;
-        border-color: #1565d8; }
-    .people-signin .signin label {
-      font-size: 1.5rem;
-      font-weight: 600;
-      line-height: 1.33;
-      color: #5a7184; }
-    .people-signin .signin .check {
-      margin-bottom: 2.2rem; }
-      .people-signin .signin .check input {
-        margin-right: 1rem; }
-      .people-signin .signin .check label {
-        display: inline-block;
-        font-size: 1.3rem;
-        font-weight: 600;
-        color: #5a7184; }
-      .people-signin .signin .check a {
-        font-size: 1.3rem;
-        font-weight: 600;
-        color: #1565d8; }
-    .people-signin .signin .btn-custom-signin {
-		text-align: center;
-
-padding: 10px;
-
-text-decoration: none;
-      height: 5.6rem;
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: .24px;
-      color: #FFF;
-      border-radius: 8px;
-      border: none;
-      background-color: #1565d8; }
-    .people-signin .signin .dont-have {
-      margin-top: 2.5rem;
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: #5a7184; }
-      .people-signin .signin .dont-have a {
-        margin-left: 1rem;
-        font-weight: 700; }
+        .people-signin {
+          position: relative;
+          width: 100vw;
+          height: 100vh;
+          padding: 43px 48px; }
+          .people-signin .header {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #3d3f43; }
+            .people-signin .header .company {
+              font-size: 2rem;
+              margin: 0; }
+            .people-signin .header .help {
+              font-size: 1.5rem;
+              margin: 0; }
+              .people-signin .header .help i {
+                margin-left: .5rem;
+                margin-top: -3px;
+                font-size: 2.5rem; }
+          .people-signin .signin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0 6rem;
+            width: 45rem;
+            height: 63rem;
+            margin: auto;
+            background-color: #FFF;
+            border: solid 2px #d9d9d9;
+            border-radius: 1.2rem; }
+            .people-signin .signin-header {
+              height: 45px;
+              margin-top: 9rem;
+              margin-bottom: 5.5rem;
+              font-size: 3.6rem;
+              font-weight: 600;
+              color: #183b56; }
+            .people-signin .signin #password,
+            .people-signin .signin #email {
+              padding: 1.7rem 2rem;
+              margin-bottom: 3rem;
+              width: 100%;
+              height: 5rem;
+              font-size: 1.5rem;
+              font-weight: 600;
+              color: #183b56;
+              border-radius: 8px;
+              border: solid 1.3px #c3cad9;
+              background-color: #ffffff; }
+              .people-signin .signin #password::placeholder,
+              .people-signin .signin #email::placeholder {
+                color: #959ead; }
+              .people-signin .signin #password:focus,
+              .people-signin .signin #email:focus {
+                outline: none;
+                border: solid 1.8px #0077ff; }
+            .people-signin .signin label {
+              margin-bottom: .7rem;
+              font-size: 1.4rem;
+              font-weight: 600;
+              line-height: 1.33;
+              color: #484d52; }
+            .people-signin .signin .check {
+              margin-bottom: 2.6rem;
+              margin-top: .3rem; }
+              .people-signin .signin .check input {
+                margin-right: 1rem; }
+              .people-signin .signin .check label {
+                display: inline-block;
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: #5a7184; }
+              .people-signin .signin .check a {
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: #1565d8; }
+            .people-signin .signin .btn-custom-signin {
+              line-height: 3;
+              text-align: center;
+              height: 5.4rem;
+              font-size: 1.8rem;
+              font-weight: 600;
+              color: #FFF;
+              border-radius: 8px;
+              border: none;
+              background-color: #1565d8; }
+            .people-signin .signin .dont-have {
+              margin-top: 2.6rem;
+              font-size: 1.3rem;
+              font-weight: 600;
+              color: #5a7184; }
+              .people-signin .signin .dont-have a {
+                margin-left: 1rem;
+                font-weight: 700; }
 
 .panel-body table {
   /* Flex Table */ }
